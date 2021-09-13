@@ -8,6 +8,11 @@
  [Rozebud](https://twitter.com/helpme_thebigt)
  [miltoncandelero](https://github.com/miltoncandelero) (Original Code)
 
+ Current changes done to the original Code:
+ Flixel Implementation
+ BlurEffect support
+ Some very minor fix stuff
+
   ## Usage/Current Limitations
 
   This is a very early build, but it works(kinda), so there's a few limitations, including:
