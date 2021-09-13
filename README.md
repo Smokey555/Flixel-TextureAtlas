@@ -31,4 +31,6 @@
  Width- and Heightoffset are a temporary fix to the cutting off bitmap issue(I'm trying to fix it rn gimme a bit).
  excludeArray excludes animations from being created. Let's say you have 2 GF versions on 1 TextureAtlas, you could exclude the animations from the one that you don't need currently,making it load faster.
 
+ ALSO MAKE SURE TO ALIGN THE ANIMATIONS YOU PLACE TO LEFT AND TOP USING "ALIGN" IN ANIMATE! There's an example .fla so you can see what you gotta do.
+
     
