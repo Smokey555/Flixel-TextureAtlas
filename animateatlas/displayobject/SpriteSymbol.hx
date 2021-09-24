@@ -278,19 +278,20 @@ class SpriteSymbol extends Sprite {
 				blur.blurY = data.BlurFilter.blurY;
 				blur.quality = data.BlurFilter.quality;
 				//_bitmap.bitmapData.applyFilter(_bitmap.bitmapData,new Rectangle(0,0,_bitmap.bitmapData.width,_bitmap.bitmapData.height),new Point(0,0),blur);
-				filters = [blur];
+				//filters.push(blur);
 			}
 			if (data.GlowFilter != null){
-				trace('GLOW' + data.GlowFilter);
-				glow = new GlowFilter();
-				glow.blurX = data.GlowFilter.blurX;
-				glow.blurY = data.GlowFilter.blurY;
-				glow.color = data.GlowFilter.color;
-				glow.alpha = data.GlowFilter.alpha;
-				glow.quality = data.GlowFilter.quality;
-				glow.strength = data.GlowFilter.strength;
-				glow.knockout = data.GlowFilter.knockout;
-				glow.inner = data.GlowFilter.inner;
+				//trace('GLOW' + data.GlowFilter);
+				//glow = new GlowFilter();
+				//glow.blurX = data.GlowFilter.blurX;
+				//glow.blurY = data.GlowFilter.blurY;
+				//glow.color = data.GlowFilter.color;
+				//glow.alpha = data.GlowFilter.alpha;
+				//glow.quality = data.GlowFilter.quality;
+				//glow.strength = data.GlowFilter.strength;
+				//glow.knockout = data.GlowFilter.knockout;
+				//glow.inner = data.GlowFilter.inner;
+				//filters.push(glow);
 
 
 
