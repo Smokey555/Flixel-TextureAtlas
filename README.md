@@ -7,6 +7,7 @@
  - [Smokey](https://twitter.com/Smokey_5_)
  - [Rozebud](https://twitter.com/helpme_thebigt)
  - [miltoncandelero](https://github.com/miltoncandelero) (Original Code)
+ - Be a cool homie and credit when used thank u
 
  Current changes done to the original Code:
  - Flixel Implementation
