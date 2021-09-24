@@ -9,16 +9,16 @@
  - [miltoncandelero](https://github.com/miltoncandelero) (Original Code)
 
  Current changes done to the original Code:
- Flixel Implementation
- BlurEffect support
- Some very minor fix stuff
+ - Flixel Implementation
+ - BlurEffect support
+ - Some very minor fix stuff
 
   ## Usage/Current Limitations
 
   This is a very early build, but it works(kinda), so there's a few limitations, including:
-  -Animate 2018 Only (i don't fucking know why)
-  -Not all Animate Effects are working yet(BlurEffect works, but GlowEffect etc. doesn't, also very laggy)
-  -Generated bitmaps cut off sometimes(Might be able to fix that soon) - FIXED NOW!
+  - Animate 2018 Only (i don't fucking know why)
+  - Not all Animate Effects are working yet(BlurEffect works, but GlowEffect etc. doesn't, also very laggy)
+  - Generated bitmaps cut off sometimes(Might be able to fix that soon) - FIXED NOW!
 
   How to do the thing:
   Make a movieclip in Animate, put all animations with their frames in there. Then, click on the first frame of each animation, go to "Properties", and give the animation a label. That label will be the animation name.
