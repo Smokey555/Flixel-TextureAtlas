@@ -22,7 +22,7 @@
 
   How to do the thing:
   Make a movieclip in Animate, put all animations with their frames in there. Then, click on the first frame of each animation, go to "Properties", and give the animation a label. That label will be the animation name.
-  ![](/art/readme/instruction1.PNG)
+  ![](/art/instruction1.PNG)
 
   Usage in Flixel is made as easy as possible, you give it to a Sprite just like a normal Spritesheet animation:
 
