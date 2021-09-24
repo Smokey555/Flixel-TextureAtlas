@@ -37,9 +37,9 @@ class AtlasFrameMaker extends FlxFramesCollection{
 
                 var frameCollection:FlxFramesCollection;
                 var frameArray:Array<Array<FlxFrame>> = [];
-                var animationData:AnimationData = Json.parse(Assets.getText('assets/images/TextureAtlas/' + key + "/Animation.json"));
-                var atlasData:AtlasData = Json.parse(Assets.getText('assets/images/TextureAtlas/' + key + "/spritemap.json"));
-                var bitmapData:BitmapData = Startup.atlasFrames.get(key).bitmap;
+                var animationData:AnimationData = Json.parse(Assets.getText(key + "/Animation.json"));
+                var atlasData:AtlasData = Json.parse(Assets.getText(key + "/spritemap.json"));
+                var bitmapData:BitmapData = Assets.getBitmapData(key + "/spritemap.png");
                 var ss = new SpriteAnimationLibrary(animationData, atlasData, bitmapData);
                 var t = ss.createAnimation();
                 if(_excludeArray == null){
