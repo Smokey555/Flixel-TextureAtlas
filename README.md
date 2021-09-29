@@ -20,7 +20,7 @@
   - Animate 2018 Only (i don't fucking know why)
   - Not all Animate Effects are working yet(BlurEffect works, but GlowEffect etc. doesn't, also very laggy)
   - Generated bitmaps cut off sometimes(Might be able to fix that soon) - FIXED NOW!
-
+  - Exported spritemap.json are set to "UTF-8-BOM" encoding for some reason, change it to "UTF-8" instead or you'll get a crash!
   How to do the thing:
   Make a movieclip in Animate, put all animations with their frames in there. Then, click on the first frame of each animation, go to "Properties", and give the animation a label. That label will be the animation name.
   ![](/art/instruction2.PNG)
