@@ -95,7 +95,9 @@ typedef ColorData = {
 	?redOffset:Float,
 	?greenOffset:Float,
 	?blueOffset:Float,
-	?AlphaOffset:Float
+	?AlphaOffset:Float,
+	?tintColor:String,
+	?tintMultiplier:Float
 }
 
 typedef BitmapPosData = {
