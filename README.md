@@ -1,5 +1,5 @@
 # Flixel-TextureAtlas
- 
+ This is obsolete and was mostly done to test out shit, not to be an actual final solution, use https://github.com/Dot-Stuff/flxanimate instead 
  Very experimental Flixel implementation for Animate 2018 (2018 ONLY RIGHT NOW!) TextureAtlas. Mostly a fork of [Original](https://github.com/miltoncandelero/OpenFLAnimateAtlas).
 
  ## Credits / shoutouts
